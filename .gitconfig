@@ -1,0 +1,19 @@
+[user]
+	name = David DeGraw
+	email = david@custombit.com
+[color]
+	ui = auto
+	[color "status"]
+	added = black
+	changed = green
+	untracked = yellow
+[core]
+[alias]
+	c = commit
+	cm = commit
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[core]
+	excludesfile = /Users/daviddegraw/.gitignore_global
